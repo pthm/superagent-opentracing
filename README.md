@@ -8,7 +8,7 @@ npm install -g superagent-opentracing
 ```
 
 ## Usage
-By default the globalTracer is used for all requests, headers are injected into all requests for extraction by other services. This library does not handle extraction.
+By default the `globalTracer` is used for all requests, headers are injected into all requests for extraction by other services. This library does not handle extraction.
 
 ### Standalone tracing
 ```typescript

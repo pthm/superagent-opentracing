@@ -1,0 +1,22 @@
+{
+  "name": "superagent-opentracing",
+  "version": "1.0.0",
+  "description": "Opentracing instrumentation plugin for superagent",
+  "main": "index.js",
+  "author": "Patt-tom McDonnell <contact@mcdonnell.pt>",
+  "license": "MIT",
+  "scripts": {
+    "prepublishOnly": "yarn compile",
+    "compile": "tsc -p ."
+  },
+  "devDependencies": {
+    "typescript": "^2.8.1"
+  },
+  "dependencies": {
+    "opentracing": "^0.14.1"
+  },
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts"
+  ]
+}

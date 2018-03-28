@@ -1,6 +1,6 @@
 {
   "name": "superagent-opentracing",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Opentracing instrumentation plugin for superagent",
   "main": "index.js",
   "author": "Patt-tom McDonnell <contact@mcdonnell.pt>",
@@ -18,5 +18,15 @@
   "files": [
     "dist/index.js",
     "dist/index.d.ts"
+  ],
+  "keywords": [
+    "opentracing",
+    "open",
+    "tracing",
+    "jaeger",
+    "superagent",
+    "super",
+    "agent",
+    "request"
   ]
 }
